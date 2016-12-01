@@ -1,0 +1,120 @@
+[ 2016-07-15T13:12:22+08:00 ] 127.0.0.1 /datadic/index.php/assets/js/ie10-viewport-bug-workaround.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-07-15T13:12:22+08:00 ] 127.0.0.1 /datadic/index.php/assets/js/ie-emulation-modes-warning.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-07-15T13:12:22+08:00 ] 127.0.0.1 /datadic/index.php/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-07-15T13:12:22+08:00 ] 127.0.0.1 /datadic/index.php/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Favicon
+
+[ 2016-07-15T13:12:22+08:00 ] 127.0.0.1 /datadic/index.php/assets/js/ie10-viewport-bug-workaround.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-07-15T13:12:26+08:00 ] 127.0.0.1 /datadic/index.php/assets/js/ie-emulation-modes-warning.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-07-15T13:12:26+08:00 ] 127.0.0.1 /datadic/index.php/assets/js/ie10-viewport-bug-workaround.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-07-15T13:12:27+08:00 ] 127.0.0.1 /datadic/index.php/assets/js/ie10-viewport-bug-workaround.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-07-15T13:13:43+08:00 ] 127.0.0.1 /datadic/index.php/assets/js/ie-emulation-modes-warning.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-07-15T13:13:43+08:00 ] 127.0.0.1 /datadic/index.php/assets/js/ie10-viewport-bug-workaround.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-07-15T13:13:43+08:00 ] 127.0.0.1 /datadic/index.php/assets/js/ie10-viewport-bug-workaround.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-07-15T13:13:50+08:00 ] 127.0.0.1 /datadic/index.php/assets/js/ie10-viewport-bug-workaround.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-07-15T13:13:50+08:00 ] 127.0.0.1 /datadic/index.php/assets/js/ie-emulation-modes-warning.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-07-15T13:13:50+08:00 ] 127.0.0.1 /datadic/index.php/assets/js/ie10-viewport-bug-workaround.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-07-15T13:24:06+08:00 ] 127.0.0.1 /datadic/index.php/assets/js/ie-emulation-modes-warning.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-07-15T13:24:06+08:00 ] 127.0.0.1 /datadic/index.php/assets/js/ie10-viewport-bug-workaround.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-07-15T13:24:06+08:00 ] 127.0.0.1 /datadic/index.php/assets/js/ie10-viewport-bug-workaround.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-07-15T13:25:13+08:00 ] 127.0.0.1 /datadic/index.php/assets/js/ie-emulation-modes-warning.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-07-15T13:25:13+08:00 ] 127.0.0.1 /datadic/index.php/assets/js/ie10-viewport-bug-workaround.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Assets
+
+[ 2016-07-15T13:25:13+08:00 ] 127.0.0.1 /datadic/index.php/assets/js/ie10-viewport-bug-workaround.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Assets
+

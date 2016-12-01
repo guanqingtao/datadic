@@ -1,0 +1,1524 @@
+[ 2016-05-20T16:37:23+08:00 ] 127.0.0.1 /datadic/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_tables` [ RunTime:0.0860s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_columns` [ RunTime:0.0520s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008001s ]
+
+[ 2016-05-20T16:37:31+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/db_info/table_schema/iflashbuy.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_tables` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_columns` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_information_schema_tables` WHERE `table_schema` = 'iflashbuy' AND `display_sataus` = 1  [ RunTime:0.0420s ]
+SQL: SHOW COLUMNS FROM `tables` [ RunTime:0.0020s ]
+SQL: SELECT `TABLE_NAME`,`TABLE_COMMENT` FROM `tables` WHERE ( `table_schema` = 'iflashbuy' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.111006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-20T16:37:31+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-20T16:37:31+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/db_info/table_schema/navbar-fixed-top.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_tables` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_columns` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_information_schema_tables` WHERE `table_schema` = 'navbar-fixed-top.css' AND `display_sataus` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tables` [ RunTime:0.0020s ]
+SQL: SELECT `TABLE_NAME`,`TABLE_COMMENT` FROM `tables` WHERE ( `table_schema` = 'navbar-fixed-top.css' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-20T16:37:31+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/assets/js/ie-emulation-modes-warning.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_tables` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_columns` [ RunTime:0.0030s ]
+ERR: 非法操作:assets
+
+[ 2016-05-20T16:37:31+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/assets/js/ie10-viewport-bug-workaround.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_tables` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_columns` [ RunTime:0.0060s ]
+ERR: 非法操作:assets
+
+[ 2016-05-20T16:37:41+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/db_info/table_schema/zcode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_tables` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_columns` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_information_schema_tables` WHERE `table_schema` = 'zcode' AND `display_sataus` = 1  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tables` [ RunTime:0.0020s ]
+SQL: SELECT `TABLE_NAME`,`TABLE_COMMENT` FROM `tables` WHERE ( `table_schema` = 'zcode' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-20T16:37:41+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-05-20T16:37:41+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/assets/js/ie10-viewport-bug-workaround.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_tables` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_columns` [ RunTime:0.0030s ]
+ERR: 非法操作:assets
+
+[ 2016-05-20T16:37:41+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/assets/js/ie-emulation-modes-warning.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_tables` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_columns` [ RunTime:0.0050s ]
+ERR: 非法操作:assets
+
+[ 2016-05-20T16:37:41+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/db_info/table_schema/navbar-fixed-top.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_tables` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_columns` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_information_schema_tables` WHERE `table_schema` = 'navbar-fixed-top.css' AND `display_sataus` = 1  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tables` [ RunTime:0.0020s ]
+SQL: SELECT `TABLE_NAME`,`TABLE_COMMENT` FROM `tables` WHERE ( `table_schema` = 'navbar-fixed-top.css' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-20T16:38:31+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/db_info/table_schema/zcode_uat.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_tables` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_columns` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_information_schema_tables` WHERE `table_schema` = 'zcode_uat' AND `display_sataus` = 1  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tables` [ RunTime:0.0020s ]
+SQL: SELECT `TABLE_NAME`,`TABLE_COMMENT` FROM `tables` WHERE ( `table_schema` = 'zcode_uat' )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-20T16:38:31+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-20T16:38:31+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/db_info/table_schema/navbar-fixed-top.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_tables` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_columns` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sp_information_schema_tables` WHERE `table_schema` = 'navbar-fixed-top.css' AND `display_sataus` = 1  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tables` [ RunTime:0.0020s ]
+SQL: SELECT `TABLE_NAME`,`TABLE_COMMENT` FROM `tables` WHERE ( `table_schema` = 'navbar-fixed-top.css' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-20T16:38:31+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/assets/js/ie-emulation-modes-warning.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_tables` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_columns` [ RunTime:0.0050s ]
+ERR: 非法操作:assets
+
+[ 2016-05-20T16:38:31+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/assets/js/ie10-viewport-bug-workaround.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_tables` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_columns` [ RunTime:0.0060s ]
+ERR: 非法操作:assets
+
+[ 2016-05-20T16:41:12+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/db_info/table_schema/zcode_uat.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_tables` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_columns` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_information_schema_tables` WHERE `table_schema` = 'zcode_uat' AND `display_sataus` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tables` [ RunTime:0.0020s ]
+SQL: SELECT `TABLE_NAME`,`TABLE_COMMENT` FROM `tables` WHERE ( `table_schema` = 'zcode_uat' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-20T16:41:12+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-05-20T16:41:12+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/assets/js/ie-emulation-modes-warning.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_tables` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_columns` [ RunTime:0.0050s ]
+ERR: 非法操作:assets
+
+[ 2016-05-20T16:41:12+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/db_info/table_schema/navbar-fixed-top.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_tables` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_columns` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sp_information_schema_tables` WHERE `table_schema` = 'navbar-fixed-top.css' AND `display_sataus` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tables` [ RunTime:0.0010s ]
+SQL: SELECT `TABLE_NAME`,`TABLE_COMMENT` FROM `tables` WHERE ( `table_schema` = 'navbar-fixed-top.css' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-20T16:41:12+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/assets/js/ie10-viewport-bug-workaround.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_tables` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_columns` [ RunTime:0.0050s ]
+ERR: 非法操作:assets
+
+[ 2016-05-20T16:41:15+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/db_info/table_schema/zcode_uat.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_tables` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_columns` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_information_schema_tables` WHERE `table_schema` = 'zcode_uat' AND `display_sataus` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tables` [ RunTime:0.0020s ]
+SQL: SELECT `TABLE_NAME`,`TABLE_COMMENT` FROM `tables` WHERE ( `table_schema` = 'zcode_uat' )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-05-20T16:41:15+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/assets/js/ie10-viewport-bug-workaround.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_tables` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_columns` [ RunTime:0.0040s ]
+ERR: 非法操作:assets
+
+[ 2016-05-20T16:41:15+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-20T16:41:15+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/assets/js/ie-emulation-modes-warning.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_tables` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_columns` [ RunTime:0.0040s ]
+ERR: 非法操作:assets
+
+[ 2016-05-20T16:41:15+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/db_info/table_schema/navbar-fixed-top.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_tables` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_columns` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_information_schema_tables` WHERE `table_schema` = 'navbar-fixed-top.css' AND `display_sataus` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tables` [ RunTime:0.0020s ]
+SQL: SELECT `TABLE_NAME`,`TABLE_COMMENT` FROM `tables` WHERE ( `table_schema` = 'navbar-fixed-top.css' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-20T16:41:18+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/db_info/table_schema/zcode_uat.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_tables` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_columns` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_information_schema_tables` WHERE `table_schema` = 'zcode_uat' AND `display_sataus` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tables` [ RunTime:0.0020s ]
+SQL: SELECT `TABLE_NAME`,`TABLE_COMMENT` FROM `tables` WHERE ( `table_schema` = 'zcode_uat' )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-20T16:41:18+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/assets/js/ie-emulation-modes-warning.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_tables` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_columns` [ RunTime:0.0050s ]
+ERR: 非法操作:assets
+
+[ 2016-05-20T16:41:18+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/db_info/table_schema/navbar-fixed-top.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_tables` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_columns` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sp_information_schema_tables` WHERE `table_schema` = 'navbar-fixed-top.css' AND `display_sataus` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tables` [ RunTime:0.0010s ]
+SQL: SELECT `TABLE_NAME`,`TABLE_COMMENT` FROM `tables` WHERE ( `table_schema` = 'navbar-fixed-top.css' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-20T16:41:18+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/assets/js/ie10-viewport-bug-workaround.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_tables` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_columns` [ RunTime:0.0040s ]
+ERR: 非法操作:assets
+
+[ 2016-05-20T16:47:26+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/db_info/table_schema/zcode_uat.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_tables` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_columns` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sp_information_schema_tables` WHERE `table_schema` = 'zcode_uat' AND `display_sataus` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tables` [ RunTime:0.0020s ]
+SQL: SELECT `TABLE_NAME`,`TABLE_COMMENT` FROM `tables` WHERE ( `table_schema` = 'zcode_uat' )  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-05-20T16:47:26+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-20T16:47:26+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/assets/js/ie10-viewport-bug-workaround.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_tables` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_columns` [ RunTime:0.0050s ]
+ERR: 非法操作:assets
+
+[ 2016-05-20T16:47:26+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/db_info/table_schema/navbar-fixed-top.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_tables` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_columns` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sp_information_schema_tables` WHERE `table_schema` = 'navbar-fixed-top.css' AND `display_sataus` = 1  [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `tables` [ RunTime:0.0020s ]
+SQL: SELECT `TABLE_NAME`,`TABLE_COMMENT` FROM `tables` WHERE ( `table_schema` = 'navbar-fixed-top.css' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-20T16:47:26+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/assets/js/ie-emulation-modes-warning.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_tables` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_columns` [ RunTime:0.0060s ]
+ERR: 非法操作:assets
+
+[ 2016-05-20T18:08:18+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/db_info/table_schema/iflashbuy.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_tables` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_columns` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_information_schema_tables` WHERE `table_schema` = 'iflashbuy' AND `display_sataus` = 1  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `tables` [ RunTime:0.0020s ]
+SQL: SELECT `TABLE_NAME`,`TABLE_COMMENT` FROM `tables` WHERE ( `table_schema` = 'iflashbuy' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+NOTIC: [8] Undefined index: aa D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 83 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.104006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.105006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-05-20T18:08:18+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-20T18:08:18+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/assets/js/ie-emulation-modes-warning.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_tables` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_columns` [ RunTime:0.0040s ]
+ERR: 非法操作:assets
+
+[ 2016-05-20T18:08:18+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/assets/js/ie10-viewport-bug-workaround.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_tables` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_columns` [ RunTime:0.0040s ]
+ERR: 非法操作:assets
+
+[ 2016-05-20T18:08:19+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/db_info/table_schema/navbar-fixed-top.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_tables` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_columns` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sp_information_schema_tables` WHERE `table_schema` = 'navbar-fixed-top.css' AND `display_sataus` = 1  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tables` [ RunTime:0.0020s ]
+SQL: SELECT `TABLE_NAME`,`TABLE_COMMENT` FROM `tables` WHERE ( `table_schema` = 'navbar-fixed-top.css' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

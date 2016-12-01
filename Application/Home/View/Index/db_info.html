@@ -1,0 +1,94 @@
+<include file="Header:header" param="value"/>
+    <div class="container">
+		<div class="table-responsive">
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>表名</th>
+                  <th>表注释(双击表格修改)</th>
+				  <th>实际数据库的值</th> 
+                  <th>开发人员(双击表格修改)</th>
+                </tr>
+              </thead>
+              <tbody>
+				<volist name="schema_list" id="vo" key="k">
+                <tr>
+                  <td>
+					<span class="table_id" style="display:none;">{$vo['id']}</span>
+					{$k}
+				  </td>
+                  <td>
+					<a href="{:U('index/table_info',array('table_id'=>$vo['id']))}">{$vo.table_name}</a>
+				  </td>
+                  <td class="comment">{$vo.table_comment}</td>
+				  <td>{$vo.aa}</td>
+                  <td class="developer">{$vo.developer}</td>
+                </tr>
+				</volist>
+              </tbody>
+            </table>
+          </div>
+      
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+	<script>
+	$(".comment").dblclick(function(){
+		var v = $(this).text();
+		$(this).text("");
+		var table_id = $(this).parent().first("td").find("span").text();
+		//alert(table_id);
+		var input = "<input class='form-control' id='temp' type='text' value="+v+">"
+		$(this).append(input);
+		$("input#temp").focus();
+		$("input").blur(function(){ 
+			if($(this).val()==""){ 
+				$(this).remove(); 
+			}else{
+				var table_comment = $(this).val();
+				$.post("{:U('index/aj1_tables_post')}", { table_id: table_id, table_comment: table_comment },
+					function(data){														
+						if(data.success == 0){								
+							window.location.reload();
+						}												
+				},"json");	
+				$(this).closest("td").text($(this).val()); 
+			}
+		})
+	})
+	
+	$(".developer").dblclick(function(){
+		var v = $(this).text();
+		$(this).text("");
+		var table_id = $(this).parent().first("td").find("span").text();
+		//alert(table_id);
+		var input = "<input class='form-control' id='temp' type='text' value="+v+">"
+		$(this).append(input);
+		$("input#temp").focus();
+		$("input").blur(function(){ 
+			if($(this).val()==""){ 
+				$(this).remove(); 
+			}else{
+				var developer = $(this).val();
+				$.post("{:U('index/aj2_tables_post')}", { table_id: table_id, developer: developer },
+					function(data){														
+						if(data.success == 0){								
+							window.location.reload();
+						}						
+				},"json");	
+				$(this).closest("td").text($(this).val()); 
+			}
+		})
+	})
+	
+	</script>
+  </body>

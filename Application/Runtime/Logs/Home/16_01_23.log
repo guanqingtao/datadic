@@ -1,0 +1,216 @@
+[ 2016-01-23T11:39:43+08:00 ] 127.0.0.1 /datadic/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_tables` [ RunTime:0.3760s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_columns` [ RunTime:0.0360s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-01-23T11:39:45+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/db_info/table_schema/iflashbuy.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_tables` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_columns` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `sp_information_schema_tables` WHERE `table_schema` = 'iflashbuy'  [ RunTime:0.0366s ]
+SQL: SHOW COLUMNS FROM `tables` [ RunTime:0.0000s ]
+SQL: SELECT `TABLE_NAME`,`TABLE_COMMENT` FROM `tables` WHERE ( `table_schema` = 'iflashbuy' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 79 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 79 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 79 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 79 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 79 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-23T11:39:45+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-01-23T11:39:45+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/assets/js/ie-emulation-modes-warning.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_tables` [ RunTime:0.0450s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_columns` [ RunTime:0.0030s ]
+ERR: 非法操作:assets
+
+[ 2016-01-23T11:39:45+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/db_info/table_schema/navbar-fixed-top.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_tables` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_columns` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sp_information_schema_tables` WHERE `table_schema` = 'navbar-fixed-top.css'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tables` [ RunTime:0.0000s ]
+SQL: SELECT `TABLE_NAME`,`TABLE_COMMENT` FROM `tables` WHERE ( `table_schema` = 'navbar-fixed-top.css' )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-23T11:39:45+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/assets/js/ie10-viewport-bug-workaround.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_tables` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_columns` [ RunTime:0.0040s ]
+ERR: 非法操作:assets
+
+[ 2016-01-23T18:09:09+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/db_info/table_schema/iflashbuy.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_tables` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_columns` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `sp_information_schema_tables` WHERE `table_schema` = 'iflashbuy'  [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `tables` [ RunTime:0.0000s ]
+SQL: SELECT `TABLE_NAME`,`TABLE_COMMENT` FROM `tables` WHERE ( `table_schema` = 'iflashbuy' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 79 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 79 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 79 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 79 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 76 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 79 行.
+NOTIC: [8] Undefined index: table_comment D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 80 行.
+NOTIC: [8] Undefined index: developer D:\wamp\www\datadic\Application\Runtime\Cache\Home\cb4c36c05a0a6e791f19647e2267e464.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-23T18:09:09+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-01-23T18:09:10+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/assets/js/ie-emulation-modes-warning.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_tables` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_columns` [ RunTime:0.0030s ]
+ERR: 非法操作:assets
+
+[ 2016-01-23T18:09:10+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/db_info/table_schema/navbar-fixed-top.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_tables` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_columns` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sp_information_schema_tables` WHERE `table_schema` = 'navbar-fixed-top.css'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tables` [ RunTime:0.0010s ]
+SQL: SELECT `TABLE_NAME`,`TABLE_COMMENT` FROM `tables` WHERE ( `table_schema` = 'navbar-fixed-top.css' )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-01-23T18:09:10+08:00 ] 127.0.0.1 /datadic/index.php/Home/index/assets/js/ie10-viewport-bug-workaround.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_tables` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_columns` [ RunTime:0.0030s ]
+ERR: 非法操作:assets
+

@@ -1,0 +1,50 @@
+<include file="Header:header" param="value"/>
+    <div class="container">
+		<div class="row">
+			<div class="col-md-12 "><h1>5分钟</h1></div>
+		</div>
+		<div class="table-responsive">
+            <table class="table table-bordered" style="word-break:break-all; word-wrap:break-all;">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>数据库</th>
+                  <th>checksum</th>
+				  <th>语句</th> 
+                  <th>first_seen</th>
+				  <th>last_seen</th>
+                </tr>
+              </thead>
+              <tbody>
+				
+				<volist name="global_query_review_history" id="vo" key="k">
+                <tr>
+                  <td  width="40">
+					{$k}
+				  </td>
+                  <td  width="100">
+					{$vo.db_max}
+				  </td>
+                  <td  width="100"><a href="{:U('slow/get_explain',array('checksum'=>$vo['checksum']))}">{$vo.checksum}</a></td>
+				  <td  width="700">{$vo.sample}</td>
+                  <td  width="100">{$vo.ts_min}</td>
+				  <td  width="100">{$vo.ts_max}</td>
+                </tr>
+				</volist>
+              </tbody>
+            </table>
+          </div>
+      
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+	
+  </body>

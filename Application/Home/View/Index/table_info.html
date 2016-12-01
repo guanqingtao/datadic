@@ -1,0 +1,111 @@
+<include file="Header:header" param="value"/>
+    <div class="container">
+		<table class="table table-bordered ">
+			<tr class="active">
+				<td colspan="7" style="text-align:center;">
+					<h3>{$table_info['table_name']}[db:{$table_info['table_schema']}]</h3>
+					<p class="text-right">
+						<a href="{:U('index/table_sync',array('table_id'=>$table_info['id']))}" type="button" class="btn btn-default">结构同步</a>
+						<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal" >额外说明</button>
+						<a href="{:U('index/table_edit',array('table_id'=>$table_info['id']))}" type="button" class="btn btn-default">编辑</a>
+					</p>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="1">表名称:</td>
+				<td colspan="3" class="table_name">{$table_info['table_name']}</td>
+				<td colspan="1">含义:</td>
+				<td colspan="2" class="table_comment">
+					{$table_info['table_comment']}
+				</td>
+				
+			</tr>
+			<tr>
+				<td colspan="1">开发人员:</td>
+				<td colspan="3">
+					<if condition="$table_info['developer']">
+						{$table_info['developer']}
+					<else />
+						未定义
+					</if>
+				</td>
+				<td colspan="1">创建时间:</td>
+				<td colspan="2">
+					<if condition="$table_info['create_time']">
+						{$table_info['create_time']}
+					<else />
+						未定义
+					</if>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="7">表结构</td>
+			</tr>
+			<tr class="active">
+				<td>字段名称</td>
+				<!--<td class="warning">字段名称(R)</td>-->
+				<td>默认值</td>
+				<!--<td class="warning">默认值(R)</td>-->
+				<td>是否为空</td>
+				<!--<td class="warning">是否为空(R)</td>-->
+				<td>字段类型</td>
+				<!--<td class="warning">字段类型(R)</td>-->
+				<td>关键字（索引）</td>
+				<!--<td class="warning">关键字(R)</td>-->
+				<td>格外</td>
+				<!--<td class="warning">格外(R)</td>-->
+				<td>数据项说明</td>
+				<!--<td class="warning">数据项说明(R)</td>-->
+			</tr>
+			<volist name="columns_info" id="vo">
+			<tr>
+				<td>{$vo['column_name']}</td>
+				<!--<td class="warning">{$vo['column_name_']}</td>-->
+				<td>{$vo['column_default']}</td>
+				<!--<td class="warning">{$vo['column_default_']}</td>-->
+				<td>{$vo['is_nullable']}</td>
+				<!--<td class="warning">{$vo['is_nullable_']}</td>-->
+				<td>{$vo['column_type']}</td>
+				<!--<td class="warning">{$vo['column_type_']}</td>-->
+				<td>{$vo['column_key']}</td>
+				<!--<td class="warning">{$vo['column_key_']}</td>-->
+				<td>{$vo['extra']}</td>	
+			    <!--<td class="warning">{$vo['extra_']}</td>-->
+				<td>{$vo['column_comment']}</td>
+				<!--<td class="warning">{$vo['column_comment_']}</td>-->
+			</tr>
+			</volist>
+		</table>
+		<div>
+			<p>
+				<a title="{$Prev['table_name']}" href="{:U('index/table_info',array('table_id'=>$Prev['id']))}" type="button" class="btn btn-default">上一个表</a>
+				<a title="{$Next['table_name']}" href="{:U('index/table_info',array('table_id'=>$Next['id']))}" type="button" class="btn btn-default">下一个表</a>
+			</p>
+		</div>
+	</div> <!-- /container -->
+	
+
+	<!-- Modal -->
+	<div class="modal fade  bs-example-modal-lg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog  modal-lg" role="document">
+		<div class="modal-content">
+		    <div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				<h4 class="modal-title" id="myModalLabel">内容说明：（对该表的内容的说明）</h4>
+		    </div>
+			
+			<div class="modal-body" style="margin:10px;">
+				{$table_info['extra_des']}
+			</div>			
+	    </div>
+	  </div>
+	</div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>

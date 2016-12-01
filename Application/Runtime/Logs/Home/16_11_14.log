@@ -1,0 +1,176 @@
+[ 2016-11-14T10:34:32+08:00 ] 127.0.0.1 /datadic/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.172010s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_tables` [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `sp_information_schema_columns` [ RunTime:0.0120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: headname D:\wamp\www\datadic\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 42 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.173010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.174010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-14T10:34:36+08:00 ] 127.0.0.1 /datadic/index.php/Home/slow/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_global_query_review` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_global_query_review_history` [ RunTime:0.0110s ]
+SQL: SELECT `checksum`,`db_max`,`sample`,`ts_min`,`ts_max` FROM `sp_global_query_review_history` WHERE ( ts_max > '2016-11-13' and checksum not in ( 5255103209479346193,9308995099268723497 ) ) GROUP BY checksum  [ RunTime:0.8590s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: headname D:\wamp\www\datadic\Application\Runtime\Cache\Home\de775912405cdc3c7c39aa56b6cd1580.php 第 42 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T10:34:37+08:00 ] 127.0.0.1 /datadic/index.php/Home/slow/navbar-fixed-top.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `sp_global_query_review` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_global_query_review_history` [ RunTime:0.0040s ]
+ERR: 非法操作:navbar-fixed-top.css
+
+[ 2016-11-14T10:34:45+08:00 ] 127.0.0.1 /datadic/index.php/Home/slow/get_explain/checksum/75017500445808442.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_global_query_review` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_global_query_review_history` [ RunTime:0.0020s ]
+SQL: SELECT `db_max`,`sample` FROM `sp_global_query_review_history` WHERE ( checksum = '75017500445808442' ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: headname D:\wamp\www\datadic\Application\Runtime\Cache\Home\e7b780539b3bef6c0876b0f13e518fb7.php 第 42 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T10:34:45+08:00 ] 127.0.0.1 /datadic/index.php/Home/slow/get_explain/checksum/navbar-fixed-top.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `sp_global_query_review` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_global_query_review_history` [ RunTime:0.0020s ]
+SQL: SELECT `db_max`,`sample` FROM `sp_global_query_review_history` WHERE ( checksum = 'navbar-fixed-top.css' ) LIMIT 1   [ RunTime:0.0010s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+ [ SQL语句 ] : explain 
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: headname D:\wamp\www\datadic\Application\Runtime\Cache\Home\e7b780539b3bef6c0876b0f13e518fb7.php 第 42 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T10:34:45+08:00 ] 127.0.0.1 /datadic/index.php/Home/slow/assets/js/ie10-viewport-bug-workaround.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_global_query_review` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_global_query_review_history` [ RunTime:0.0020s ]
+ERR: 非法操作:assets
+
+[ 2016-11-14T10:34:46+08:00 ] 127.0.0.1 /datadic/index.php/Home/slow/assets/js/ie-emulation-modes-warning.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_global_query_review` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_global_query_review_history` [ RunTime:0.0020s ]
+ERR: 非法操作:assets
+
+[ 2016-11-14T10:34:46+08:00 ] 127.0.0.1 /datadic/index.php/Home/slow/assets/js/ie10-viewport-bug-workaround.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `sp_global_query_review` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_global_query_review_history` [ RunTime:0.0020s ]
+ERR: 非法操作:assets
+
+[ 2016-11-14T10:35:03+08:00 ] 127.0.0.1 /datadic/index.php/Home/slow/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_global_query_review` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_global_query_review_history` [ RunTime:0.0030s ]
+SQL: SELECT `checksum`,`db_max`,`sample`,`ts_min`,`ts_max` FROM `sp_global_query_review_history` WHERE ( ts_max > '2016-11-13' and checksum not in ( 5255103209479346193,9308995099268723497 ) ) GROUP BY checksum  [ RunTime:0.0220s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: headname D:\wamp\www\datadic\Application\Runtime\Cache\Home\de775912405cdc3c7c39aa56b6cd1580.php 第 42 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-14T10:35:04+08:00 ] 127.0.0.1 /datadic/index.php/Home/slow/navbar-fixed-top.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_global_query_review` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_global_query_review_history` [ RunTime:0.0020s ]
+ERR: 非法操作:navbar-fixed-top.css
+

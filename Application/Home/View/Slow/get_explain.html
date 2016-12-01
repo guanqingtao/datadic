@@ -1,0 +1,59 @@
+<include file="Header:header" param="value"/>
+    <div class="container">
+		<div class="table-responsive">
+            <table class="table table-bordered" style="word-break:break-all; word-wrap:break-all;">
+              <thead>
+				<tr>
+					<th colspan="10" >247 explain分析结果</th>
+				</tr>
+				<tr>
+					<td colspan="10">{$s}</td>
+				</tr>
+                <tr>
+                  <th>id</th>
+                  <th>select_type</th>
+				  <th>table</th>
+                  <th>type</th>
+				  <th>possible_key</th> 
+                  <th>key</th>
+				  <th>key_len</th>
+				  <th>ref</th>
+				  <th>rows</th>
+				  <th>extra</th>
+                </tr>
+              </thead>
+              <tbody>
+				
+				<volist name="res" id="vo" key="k">
+                <tr>
+                  <td  width="100">
+					{$k}
+				  </td>
+                  <td  width="100">{$vo.select_type}</td>
+                  <td  width="50">{$vo.table}</td>
+				  <td  width="50">{$vo.type}</td>
+                  <td  width="200">{$vo.possible_keys}</td>
+				  <td  width="100">{$vo.key}</td>
+				  <td  width="50">{$vo.key_len}</td>
+				  <td  width="100">{$vo.ref}</td>
+				  <td  width="50">{$vo.rows}</td>
+				  <td  >{$vo.extra}</td>
+                </tr>
+				</volist>
+              </tbody>
+            </table>
+          </div>
+      
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+	
+  </body>

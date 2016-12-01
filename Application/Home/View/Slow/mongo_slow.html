@@ -1,0 +1,75 @@
+<include file="Header:header" param="value"/>
+
+<div class="container">
+		<div class="row">
+			<div class="col-md-12 "><h1>实时</h1></div>
+		</div>
+		<div class="table-responsive">
+            <table class="table table-bordered" style="word-break:break-all; word-wrap:break-all;">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>数据库</th>
+                  <th>query</th>
+				  <th>语句</th> 
+				  <th>毫秒</th>
+				  <th>锁</th>
+				  <th>client</th>
+                </tr>
+              </thead>
+              <tbody>
+				
+				<php>
+					$n = 1;
+					foreach($result as $key=>$value){
+						echo "<tr>";
+						echo "<td width='40'>";
+						echo $n;
+						echo "</td>";
+						echo "<td width='100'>";
+						echo $value['ns'];
+						echo "</td>";
+						echo "<td  width='50'>";
+						echo $value['op'];
+						echo "</td>";
+						echo "<td width='150'>";
+						if(isset($value['query'])){
+							if(isset($value['updateobj'])){
+								$value['query']['updateobj'] = $value['updateobj'];
+							}						
+						echo json_encode($value['query']);
+						}else if(isset($value['command'])){
+							echo json_encode($value['command']);
+						}
+						echo "</td>";
+						echo "<td width='50' >";
+						echo $value['millis']."ms";
+						echo "</td>";
+						echo "<td width='150' >";
+						if(isset($value['lockStats'])){
+							echo json_encode($value['lockStats']);
+						}
+						echo "</td>";
+						echo "<td width='100' >";
+						echo $value['client'];
+						echo "</td>";
+						echo "</tr>";
+						$n = $n+1;
+						
+					}
+				</php>
+              </tbody>
+            </table>
+          </div>
+      
+
+    </div> <!-- /container -->
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+	
+  </body>

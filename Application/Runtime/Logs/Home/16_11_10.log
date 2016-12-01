@@ -1,0 +1,380 @@
+[ 2016-11-10T09:31:53+08:00 ] 127.0.0.1 /datadic/index.php/Home/slow/mongo_slow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_global_query_review` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sp_global_query_review_history` [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 422 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 422 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\wamp\www\datadic\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 821 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\wamp\www\datadic\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 821 行.
+SQL: iflashbuy-log.getCollection(system.profile) [ RunTime:0.0000s ]
+SQL: iflashbuy-log.system.profile.find({}, {"op":1,"ns":1,"query":1,"command":1,"updateobj":1,"lockStats":1,"client":1,"ts":1,"millis":1}).sort({"ts":-1}).limit(20) [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: headname D:\wamp\www\datadic\Application\Runtime\Cache\Home\62534129ea80c86801ae9ffca2c21468.php 第 42 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-10T09:31:53+08:00 ] 127.0.0.1 /datadic/index.php/Home/slow/navbar-fixed-top.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `sp_global_query_review` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_global_query_review_history` [ RunTime:0.0010s ]
+ERR: 非法操作:navbar-fixed-top.css
+
+[ 2016-11-10T09:32:48+08:00 ] 127.0.0.1 /datadic/index.php/Home/slow/mongo_slow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_global_query_review` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_global_query_review_history` [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 422 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 422 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\wamp\www\datadic\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 821 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\wamp\www\datadic\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 821 行.
+SQL: iflashbuy-log.getCollection(system.profile) [ RunTime:0.0000s ]
+SQL: iflashbuy-log.system.profile.find({}, {"op":1,"ns":1,"query":1,"command":1,"updateobj":1,"lockStats":1,"client":1,"ts":1,"millis":1}).sort({"ts":-1}).limit(20) [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: headname D:\wamp\www\datadic\Application\Runtime\Cache\Home\62534129ea80c86801ae9ffca2c21468.php 第 42 行.
+NOTIC: [8] Undefined index: tc D:\wamp\www\datadic\Application\Runtime\Cache\Home\62534129ea80c86801ae9ffca2c21468.php 第 86 行.
+NOTIC: [8] Undefined index: tc D:\wamp\www\datadic\Application\Runtime\Cache\Home\62534129ea80c86801ae9ffca2c21468.php 第 86 行.
+NOTIC: [8] Undefined index: tc D:\wamp\www\datadic\Application\Runtime\Cache\Home\62534129ea80c86801ae9ffca2c21468.php 第 86 行.
+NOTIC: [8] Undefined index: tc D:\wamp\www\datadic\Application\Runtime\Cache\Home\62534129ea80c86801ae9ffca2c21468.php 第 86 行.
+NOTIC: [8] Undefined index: tc D:\wamp\www\datadic\Application\Runtime\Cache\Home\62534129ea80c86801ae9ffca2c21468.php 第 86 行.
+NOTIC: [8] Undefined index: tc D:\wamp\www\datadic\Application\Runtime\Cache\Home\62534129ea80c86801ae9ffca2c21468.php 第 86 行.
+NOTIC: [8] Undefined index: tc D:\wamp\www\datadic\Application\Runtime\Cache\Home\62534129ea80c86801ae9ffca2c21468.php 第 86 行.
+NOTIC: [8] Undefined index: tc D:\wamp\www\datadic\Application\Runtime\Cache\Home\62534129ea80c86801ae9ffca2c21468.php 第 86 行.
+NOTIC: [8] Undefined index: tc D:\wamp\www\datadic\Application\Runtime\Cache\Home\62534129ea80c86801ae9ffca2c21468.php 第 86 行.
+NOTIC: [8] Undefined index: tc D:\wamp\www\datadic\Application\Runtime\Cache\Home\62534129ea80c86801ae9ffca2c21468.php 第 86 行.
+NOTIC: [8] Undefined index: tc D:\wamp\www\datadic\Application\Runtime\Cache\Home\62534129ea80c86801ae9ffca2c21468.php 第 86 行.
+NOTIC: [8] Undefined index: tc D:\wamp\www\datadic\Application\Runtime\Cache\Home\62534129ea80c86801ae9ffca2c21468.php 第 86 行.
+NOTIC: [8] Undefined index: tc D:\wamp\www\datadic\Application\Runtime\Cache\Home\62534129ea80c86801ae9ffca2c21468.php 第 86 行.
+NOTIC: [8] Undefined index: tc D:\wamp\www\datadic\Application\Runtime\Cache\Home\62534129ea80c86801ae9ffca2c21468.php 第 86 行.
+NOTIC: [8] Undefined index: tc D:\wamp\www\datadic\Application\Runtime\Cache\Home\62534129ea80c86801ae9ffca2c21468.php 第 86 行.
+NOTIC: [8] Undefined index: tc D:\wamp\www\datadic\Application\Runtime\Cache\Home\62534129ea80c86801ae9ffca2c21468.php 第 86 行.
+NOTIC: [8] Undefined index: tc D:\wamp\www\datadic\Application\Runtime\Cache\Home\62534129ea80c86801ae9ffca2c21468.php 第 86 行.
+NOTIC: [8] Undefined index: tc D:\wamp\www\datadic\Application\Runtime\Cache\Home\62534129ea80c86801ae9ffca2c21468.php 第 86 行.
+NOTIC: [8] Undefined index: tc D:\wamp\www\datadic\Application\Runtime\Cache\Home\62534129ea80c86801ae9ffca2c21468.php 第 86 行.
+NOTIC: [8] Undefined index: tc D:\wamp\www\datadic\Application\Runtime\Cache\Home\62534129ea80c86801ae9ffca2c21468.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-10T09:32:48+08:00 ] 127.0.0.1 /datadic/index.php/Home/slow/navbar-fixed-top.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_global_query_review` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_global_query_review_history` [ RunTime:0.0030s ]
+ERR: 非法操作:navbar-fixed-top.css
+
+[ 2016-11-10T09:32:52+08:00 ] 127.0.0.1 /datadic/index.php/Home/slow/mongo_slow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_global_query_review` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_global_query_review_history` [ RunTime:0.0020s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 422 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 422 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\wamp\www\datadic\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 821 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\wamp\www\datadic\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 821 行.
+SQL: iflashbuy-log.getCollection(system.profile) [ RunTime:0.0000s ]
+SQL: iflashbuy-log.system.profile.find({}, {"op":1,"ns":1,"query":1,"command":1,"updateobj":1,"lockStats":1,"client":1,"ts":1,"millis":1}).sort({"ts":-1}).limit(20) [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: headname D:\wamp\www\datadic\Application\Runtime\Cache\Home\62534129ea80c86801ae9ffca2c21468.php 第 42 行.
+NOTIC: [8] Undefined index: tc D:\wamp\www\datadic\Application\Runtime\Cache\Home\62534129ea80c86801ae9ffca2c21468.php 第 86 行.
+NOTIC: [8] Undefined index: tc D:\wamp\www\datadic\Application\Runtime\Cache\Home\62534129ea80c86801ae9ffca2c21468.php 第 86 行.
+NOTIC: [8] Undefined index: tc D:\wamp\www\datadic\Application\Runtime\Cache\Home\62534129ea80c86801ae9ffca2c21468.php 第 86 行.
+NOTIC: [8] Undefined index: tc D:\wamp\www\datadic\Application\Runtime\Cache\Home\62534129ea80c86801ae9ffca2c21468.php 第 86 行.
+NOTIC: [8] Undefined index: tc D:\wamp\www\datadic\Application\Runtime\Cache\Home\62534129ea80c86801ae9ffca2c21468.php 第 86 行.
+NOTIC: [8] Undefined index: tc D:\wamp\www\datadic\Application\Runtime\Cache\Home\62534129ea80c86801ae9ffca2c21468.php 第 86 行.
+NOTIC: [8] Undefined index: tc D:\wamp\www\datadic\Application\Runtime\Cache\Home\62534129ea80c86801ae9ffca2c21468.php 第 86 行.
+NOTIC: [8] Undefined index: tc D:\wamp\www\datadic\Application\Runtime\Cache\Home\62534129ea80c86801ae9ffca2c21468.php 第 86 行.
+NOTIC: [8] Undefined index: tc D:\wamp\www\datadic\Application\Runtime\Cache\Home\62534129ea80c86801ae9ffca2c21468.php 第 86 行.
+NOTIC: [8] Undefined index: tc D:\wamp\www\datadic\Application\Runtime\Cache\Home\62534129ea80c86801ae9ffca2c21468.php 第 86 行.
+NOTIC: [8] Undefined index: tc D:\wamp\www\datadic\Application\Runtime\Cache\Home\62534129ea80c86801ae9ffca2c21468.php 第 86 行.
+NOTIC: [8] Undefined index: tc D:\wamp\www\datadic\Application\Runtime\Cache\Home\62534129ea80c86801ae9ffca2c21468.php 第 86 行.
+NOTIC: [8] Undefined index: tc D:\wamp\www\datadic\Application\Runtime\Cache\Home\62534129ea80c86801ae9ffca2c21468.php 第 86 行.
+NOTIC: [8] Undefined index: tc D:\wamp\www\datadic\Application\Runtime\Cache\Home\62534129ea80c86801ae9ffca2c21468.php 第 86 行.
+NOTIC: [8] Undefined index: tc D:\wamp\www\datadic\Application\Runtime\Cache\Home\62534129ea80c86801ae9ffca2c21468.php 第 86 行.
+NOTIC: [8] Undefined index: tc D:\wamp\www\datadic\Application\Runtime\Cache\Home\62534129ea80c86801ae9ffca2c21468.php 第 86 行.
+NOTIC: [8] Undefined index: tc D:\wamp\www\datadic\Application\Runtime\Cache\Home\62534129ea80c86801ae9ffca2c21468.php 第 86 行.
+NOTIC: [8] Undefined index: tc D:\wamp\www\datadic\Application\Runtime\Cache\Home\62534129ea80c86801ae9ffca2c21468.php 第 86 行.
+NOTIC: [8] Undefined index: tc D:\wamp\www\datadic\Application\Runtime\Cache\Home\62534129ea80c86801ae9ffca2c21468.php 第 86 行.
+NOTIC: [8] Undefined index: tc D:\wamp\www\datadic\Application\Runtime\Cache\Home\62534129ea80c86801ae9ffca2c21468.php 第 86 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-10T09:32:52+08:00 ] 127.0.0.1 /datadic/index.php/Home/slow/navbar-fixed-top.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_global_query_review` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `sp_global_query_review_history` [ RunTime:0.0020s ]
+ERR: 非法操作:navbar-fixed-top.css
+
+[ 2016-11-10T09:33:15+08:00 ] 127.0.0.1 /datadic/index.php/Home/slow/mongo_slow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_global_query_review` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_global_query_review_history` [ RunTime:0.0020s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 422 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 422 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\wamp\www\datadic\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 821 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\wamp\www\datadic\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 821 行.
+SQL: iflashbuy-log.getCollection(system.profile) [ RunTime:0.0010s ]
+SQL: iflashbuy-log.system.profile.find({}, {"op":1,"ns":1,"query":1,"command":1,"updateobj":1,"lockStats":1,"client":1,"ts":1,"millis":1}).sort({"ts":-1}).limit(20) [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: headname D:\wamp\www\datadic\Application\Runtime\Cache\Home\62534129ea80c86801ae9ffca2c21468.php 第 42 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-11-10T09:33:16+08:00 ] 127.0.0.1 /datadic/index.php/Home/slow/navbar-fixed-top.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `sp_global_query_review` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_global_query_review_history` [ RunTime:0.0020s ]
+ERR: 非法操作:navbar-fixed-top.css
+
+[ 2016-11-10T09:34:35+08:00 ] 127.0.0.1 /datadic/index.php/Home/slow/mongo_slow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_global_query_review` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_global_query_review_history` [ RunTime:0.0020s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 422 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 422 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\wamp\www\datadic\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 821 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\wamp\www\datadic\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 821 行.
+SQL: iflashbuy-log.getCollection(system.profile) [ RunTime:0.0000s ]
+SQL: iflashbuy-log.system.profile.find({}, {"op":1,"ns":1,"query":1,"command":1,"updateobj":1,"lockStats":1,"client":1,"ts":1,"millis":1}).sort({"ts":-1}).limit(20) [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-11-10T09:34:46+08:00 ] 127.0.0.1 /datadic/index.php/Home/slow/mongo_slow.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_global_query_review` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_global_query_review_history` [ RunTime:0.0020s ]
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setInc() should be compatible with Think\Model::setInc($field, $step = 1, $lazyTime = 0) D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 422 行.
+NOTIC: [2048] Declaration of Think\Model\MongoModel::setDec() should be compatible with Think\Model::setDec($field, $step = 1, $lazyTime = 0) D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 422 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::connect() should be compatible with Think\Db\Driver::connect($config = '', $linkNum = 0, $autoConnection = false) D:\wamp\www\datadic\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 821 行.
+NOTIC: [2048] Declaration of Think\Db\Driver\Mongo::insertAll() should be compatible with Think\Db\Driver::insertAll($dataSet, $options = Array, $replace = false) D:\wamp\www\datadic\ThinkPHP\Library\Think\Db\Driver\Mongo.class.php 第 821 行.
+SQL: iflashbuy-log.getCollection(system.profile) [ RunTime:0.0000s ]
+SQL: iflashbuy-log.system.profile.find({}, {"op":1,"ns":1,"query":1,"command":1,"updateobj":1,"lockStats":1,"client":1,"ts":1,"millis":1}).sort({"ts":-1}).limit(20) [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+NOTIC: [8] Undefined index: _id D:\wamp\www\datadic\ThinkPHP\Library\Think\Model\MongoModel.class.php 第 207 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: headname D:\wamp\www\datadic\Application\Runtime\Cache\Home\62534129ea80c86801ae9ffca2c21468.php 第 42 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-11-10T09:34:46+08:00 ] 127.0.0.1 /datadic/index.php/Home/slow/navbar-fixed-top.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `sp_global_query_review` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_global_query_review_history` [ RunTime:0.0020s ]
+ERR: 非法操作:navbar-fixed-top.css
+

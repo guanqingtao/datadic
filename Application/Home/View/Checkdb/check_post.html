@@ -1,0 +1,44 @@
+<include file="Header:header" param="value"/>	
+    <div class="container">
+		<div class="table-responsive">
+            <div class="jumbotron">
+			    <p>
+					<h3>发现不存在的表</h3>
+				    <hr>
+			    </p>
+			    <form class="form-horizontal" action="{:U('checkdb/change_post')}" method="post">
+					<foreach name="re" item="vo">
+					<div class="checkbox">
+						<label>
+						  <input name="tables[]" type="checkbox" value="{$vo}"> {$vo}
+						</label>
+					</div>
+					</foreach>
+					<div class="form-group">
+						<div class="col-sm-offset-10 col-sm-10">
+						  <button type="submit" class="btn btn-default sync">Sign in</button>
+						</div>
+					</div>
+			    </form>
+			</div>
+        </div>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+	<script>
+		$(".sync").click(function(){
+			 if(confirm("是否同步所选的数据库结构？")){
+				return true
+			 }else{
+				return false
+			 }
+		})
+	</script>
+  </body>

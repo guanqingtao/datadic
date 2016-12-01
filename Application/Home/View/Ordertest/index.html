@@ -1,0 +1,36 @@
+<include file="Header:header" param="value"/>	
+    <div class="container">
+		<div class="table-responsive col-md-8 col-md-offset-2">
+			<form action='{:U('Ordertest/orderPost')}' method='post'>
+			<volist name="product" id="vo">
+            <table class="table table-striped">
+				<tr class="active">
+					<th>选择</th>
+					<th>产品名</th>
+					<th>库存</th>
+				</tr>
+				<tr>
+					<td>
+						<input type="checkbox" id="inlineCheckbox1" name="checkbox[]" value="{:$vo['id']}">
+					</td>
+					<td>
+						{:$vo['product_name']}
+					</td>
+					<td>{:$vo['inventory']}</td>
+				</tr>
+			</table>
+			</volist>
+			<button type="submit" >提交</button> 
+			</form>
+        </div>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
