@@ -30,10 +30,10 @@ return array(
 			'DB_PORT' => '27017',
 	),
 	'evn' => array(
-			'db1_name' => 'iflashbuy',
-			'db1_value' => 'iflashbuy(mysql测试机)',
-			'db2_name' => 'zcode_uat',
-			'db2_value' => 'zcode_uat(mysql测试机)',
+			'db1_name' => '',
+			'db1_value' => '(mysql测试机)',
+			'db2_name' => '',
+			'db2_value' => '(mysql测试机)',
 	    )
 	
 );
